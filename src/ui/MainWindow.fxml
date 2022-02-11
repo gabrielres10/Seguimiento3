@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="451.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="oneBTN" layoutX="150.0" layoutY="109.0" mnemonicParsing="false" style="-fx-background-color: #316FCA; -fx-pref-height: 60; -fx-pref-width: 60; -fx-border-color: #000D55; -fx-border-width: 1;" text="1" textAlignment="CENTER" textFill="#e1e1e1">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="twoBTN" layoutX="233.0" layoutY="109.0" mnemonicParsing="false" style="-fx-background-color: #316FCA; -fx-pref-height: 60; -fx-pref-width: 60; -fx-border-color: #000D55; -fx-border-width: 1;" text="2" textAlignment="CENTER" textFill="#e1e1e1">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="threeBTN" layoutX="313.0" layoutY="109.0" mnemonicParsing="false" style="-fx-background-color: #316FCA; -fx-pref-height: 60; -fx-pref-width: 60; -fx-border-color: #000D55; -fx-border-width: 1;" text="3" textAlignment="CENTER" textFill="#e1e1e1">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="fourBTN" layoutX="150.0" layoutY="195.0" mnemonicParsing="false" style="-fx-background-color: #316FCA; -fx-pref-height: 60; -fx-pref-width: 60; -fx-border-color: #000D55; -fx-border-width: 1;" text="4" textAlignment="CENTER" textFill="#e1e1e1">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="fiveBTN" layoutX="233.0" layoutY="195.0" mnemonicParsing="false" style="-fx-background-color: #316FCA; -fx-pref-height: 60; -fx-pref-width: 60; -fx-border-color: #000D55; -fx-border-width: 1;" text="5" textAlignment="CENTER" textFill="#e1e1e1">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="sixBTN" layoutX="313.0" layoutY="195.0" mnemonicParsing="false" style="-fx-background-color: #316FCA; -fx-pref-height: 60; -fx-pref-width: 60; -fx-border-color: #000D55; -fx-border-width: 1;" text="6" textAlignment="CENTER" textFill="#e1e1e1">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="sevenBTN" layoutX="150.0" layoutY="275.0" mnemonicParsing="false" style="-fx-background-color: #316FCA; -fx-pref-height: 60; -fx-pref-width: 60; -fx-border-color: #000D55; -fx-border-width: 1;" text="7" textAlignment="CENTER" textFill="#e1e1e1">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="eightBTN" layoutX="233.0" layoutY="275.0" mnemonicParsing="false" style="-fx-background-color: #316FCA; -fx-pref-height: 60; -fx-pref-width: 60; -fx-border-color: #000D55; -fx-border-width: 1;" text="8" textAlignment="CENTER" textFill="#e1e1e1">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="nineBTN" layoutX="313.0" layoutY="275.0" mnemonicParsing="false" style="-fx-background-color: #316FCA; -fx-pref-height: 60; -fx-pref-width: 60; -fx-border-color: #000D55; -fx-border-width: 1;" text="9" textAlignment="CENTER" textFill="#e1e1e1">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="productBTN" layoutX="464.0" layoutY="109.0" mnemonicParsing="false" style="-fx-background-color: #266FBC; -fx-pref-height: 55; -fx-pref-width: 55; -fx-border-color: #000D55; -fx-border-width: 1;" text="x" textAlignment="CENTER" textFill="#e1e1e1">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="sumBTN" layoutX="422.0" layoutY="195.0" mnemonicParsing="false" prefHeight="209.0" prefWidth="53.0" style="-fx-background-color: #266FBC; -fx-pref-height: 55; -fx-pref-width: 55; -fx-border-color: #000D55; -fx-border-width: 1;" text="+" textAlignment="CENTER" textFill="#e1e1e1">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="substractBTN" layoutX="504.0" layoutY="195.0" mnemonicParsing="false" style="-fx-background-color: #266FBC; -fx-pref-height: 55; -fx-pref-width: 55; -fx-border-color: #000D55; -fx-border-width: 1;" text="-" textAlignment="CENTER" textFill="#e1e1e1">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button layoutX="424.0" layoutY="275.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="137.0" style="-fx-background-color: #8B8B8B;" text="Calcular" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="zeroBTN" layoutX="233.0" layoutY="353.0" mnemonicParsing="false" style="-fx-background-color: #316FCA; -fx-pref-height: 60; -fx-pref-width: 60; -fx-border-color: #000D55; -fx-border-width: 1;" text="0" textAlignment="CENTER" textFill="#e1e1e1">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <TextField fx:id="operationTF" layoutX="150.0" layoutY="24.0" prefHeight="60.0" prefWidth="415.0" style="-fx-border-color: #000000;" />
+      <Label layoutX="35.0" layoutY="24.0" text="Historial ">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="historyTA" layoutX="17.0" layoutY="84.0" prefHeight="345.0" prefWidth="123.0" style="-fx-border-color: #000000; -fx-background-color: #FFFFFF;" />
+      <TextField fx:id="resultTF" layoutX="395.0" layoutY="369.0" prefHeight="60.0" prefWidth="193.0" style="-fx-border-color: #000000;" />
+   </children>
+</AnchorPane>
